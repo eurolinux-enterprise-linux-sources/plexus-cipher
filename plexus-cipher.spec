@@ -1,6 +1,6 @@
 Name:           plexus-cipher
 Version:        1.7
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Plexus Cipher: encryption/decryption Component
 
 License:        ASL 2.0
@@ -63,6 +63,9 @@ API documentation for %{name}.
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.7-5
+- Mass rebuild 2013-12-27
+
 * Mon Aug 19 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.7-4
 - Migrate away from mvn-rpmbuild (#997451)
 
